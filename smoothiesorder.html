@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Page</title>
+    <script src="order.js"></script>
+    <link rel="stylesheet" href="order.css">
+    <link rel="icon" href="Images/icon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1><a href="Smoothie.html">Return</a></h1>
+    <form>
+    <fieldset><legend><h1>Place Your Order For Smoothies</h1></legend>
+        <table >
+            <tr>
+                <th>Product</th>
+                <th>Price(per item)$</th>
+                <th>Quantity</th>
+            </tr>
+            <tr>
+               <td>
+               <select >
+                   <option>Select an item</option>
+                   <option >Mango Smoothie</option>
+                   <option >Strawberry Smoothie</option>
+                   <option>Orange Smoothie</option>
+                   <option >Fruit Mix Smoothie</option>
+                   <option >Blueberry Smoothie</option>
+                   <option >Chocolate Smoothie</option>
+                   <option >Mint Chocolate Smoothie</option>
+                   <option >Mocha Smoothie</option>
+                   <option >Dark Chocolate Smoothie</option>
+                   <option >Green Tea Smoothie</option>
+               </select>
+               </td>
+               <td><input type="text" id="price" value="8" disabled ></td>
+               <td>
+               <input type="text" id="quantity" onchange="calcOrder()" >
+               </td>
+            </tr>
+             </table>
+             <input type="submit" value="Order Now" id="orderButton" onclick="alert('Order Submitted. Thank You!!')">
+             <label class="totalCost">Total Price:$</label><span id="totalCost"></span><br><br>
+    </fieldset>
+    </form>
+    <audio id="music" autoplay>
+        <source src="music/Lofi.mp3">
+        </audio>
+</body>
+</html>

@@ -1,0 +1,31 @@
+table,tr,td,th{
+    border: black solid 1px;   
+}
+table{
+    padding: 5px;
+    width:1000px;
+    margin: auto;
+}
+fieldset{
+    width: max-content;
+}
+form{
+   display: grid;
+   place-content: center;
+}
+#orderButton{
+  float: right;
+}
+h1 a {
+   float: right;
+   margin-right: 100px;
+}
+select{
+    margin-left: 100px;
+}
+#price{
+    margin-left: 100px;
+}
+#quantity{
+    margin-left: 70px;
+}

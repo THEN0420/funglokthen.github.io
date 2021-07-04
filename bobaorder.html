@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Page</title>
+    <script src="order.js"></script>
+    <link rel="stylesheet" href="order.css">
+
+</head>
+<body>
+    <h1>
+        
+    <a href="boba.html">Return</a></h1>
+    <form>
+    <fieldset><legend><h1>Place Your Order For Boba</h1></legend>
+        <table >
+            <tr>
+                <th>Product</th>
+                <th>Price(per item)$</th>
+                <th>Quantity</th>
+            </tr>
+            <tr>
+               <td>
+               <select  >
+                   <option>Select an item</option>
+                   <option >Flavored Boba</option>
+                   <option >Popping Boba</option>
+                   <option >Mini Boba</option>
+                   <option >Black Boba</option>
+                   <option >Clear Boba</option>
+                   <option >Fruit Boba</option>
+                   <option >Cheese Boba</option>
+                   <option >Brown sugar Boba</option>
+                   <option >Chocolate Boba</option>
+                   <option >Tea Boba</option>
+               </select>
+               </td>
+               <td><input type="text" id="price" value="8" disabled ></td>
+               <td>
+               <input type="text" id="quantity" onchange="calcOrder()" >
+               </td>
+            </tr>
+             </table>
+             <input type="submit" value="Order Now" id="orderButton" onclick="alert('Order Submitted. Thank You!!')">
+             <label class="totalCost">Total Price:$</label><span id="totalCost"></span><br><br>
+    </fieldset>
+    </form>
+    <audio id="music" autoplay>
+        <source src="music/Lofi.mp3">
+        </audio>
+        
+</body>
+</html>

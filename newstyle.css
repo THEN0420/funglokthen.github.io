@@ -164,10 +164,7 @@ label{
     overflow: auto;
 }
 
-nav div a:hover{
-    background-color: lightyellow;
-    color: black;
-}
+
 .productsmarg{
     margin: 70px;
 }
@@ -178,10 +175,9 @@ nav div a:hover{
 .productright{
     right: 20%;
 }
-main div div a:hover{
-    background-color: lightyellow;
-    color: black;
-}
+a:link{color: #000033;}
+a:visited{color: #344873;}
+a:hover{color: #FFFFFF;}
 figure{
     float: left;
     margin-right: 20px;
@@ -254,14 +250,16 @@ h3 a{
     main{padding: 0.1em;
     padding-right: 0;
     padding-bottom: 0.1em;}
-    img{ padding-right: 0;}
+    main img{  display: block;}
+    figcaption{padding-top: 3px;}
     nav{display: none;} 
     #phonenav{
-        display: block;
-        
+        display: block; 
        
     }
     ul{
         list-style-type: none;
     }
-    }
+    body{margin:auto}
+    footer{background-color: white; padding-top: 2px;}
+}

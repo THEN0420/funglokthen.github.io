@@ -251,9 +251,8 @@ h3 a{
        
     main{padding: 0.1em;
     padding-right: 0;
-    padding-bottom: 0.1em;
-  
-    main img{  display: block; width: 320px; height: 240px;}
+    padding-bottom: 0.1em;}
+    main img{  display: block;}
     figcaption{padding-top: 3px;}
     nav{display: none;} 
     #phonenav{
@@ -265,7 +264,7 @@ h3 a{
         list-style-type: none;
     }
     body{margin:auto}
-    footer{background-color: white; padding-top: 2px; margin-bottom: 0;}
+    footer{background-color: white; padding-top: 2px;}
 
     nav li{padding-top: 7px;}
 }

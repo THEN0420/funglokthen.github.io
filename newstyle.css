@@ -264,7 +264,7 @@ h3 a{
         list-style-type: none;
     }
     body{margin:auto}
-    footer{background-color: white; padding-top: 2px;}
+    footer{background-color: white; padding: 0 0 2px 0;}
 
     nav li{padding-top: 7px;}
 }

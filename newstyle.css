@@ -251,8 +251,9 @@ h3 a{
        
     main{padding: 0.1em;
     padding-right: 0;
-    padding-bottom: 0.1em;}
-    main img{  display: block;}
+    padding-bottom: 0.1em;
+    width: min-content;}
+    main img{  display: block; width: 320px; height: 240px;}
     figcaption{padding-top: 3px;}
     nav{display: none;} 
     #phonenav{

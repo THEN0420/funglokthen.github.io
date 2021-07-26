@@ -226,7 +226,7 @@ h3 a{
 
 .radio{margin: 0;}
 
-#map{height: 200px; width: 300px;}
+.map{height: 200px; width: 300px; margin-left: -23px;}
   
 @media  (max-width:480px){
     h1{
@@ -311,7 +311,7 @@ h3 a{
 
     main ul {padding-left: 2px;}
 
-    #map{margin-left: -23px;}
+    
 
     .productspic{margin-left: -78px;}
 }  
@@ -401,7 +401,7 @@ margin-bottom: 25px;}
 
     main ul {padding-left: 2px;}
 
-    #map{margin-left: -23px;}
+    .map{margin-left: -23px; width: 300px; height: auto;}
 
     .productspic{margin-left: -78px;}
 

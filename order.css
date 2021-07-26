@@ -15,6 +15,7 @@ form{
 }
 #orderButton{
   float: right;
+  margin-top: 10px;
 }
 h1 a {
    float: right;
@@ -30,3 +31,48 @@ select{
     margin-left: 70px;
 }
 
+@media only screen and (min-width: 768px) {
+
+   
+
+   fieldset {
+    width: max-content;
+    padding-left: 210px;
+}
+
+table {
+    padding: 5px;
+    width: 704px;
+    margin: 0;
+}
+
+#orderButton {
+    float: right;
+    margin-top: 10px;
+}
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+    
+
+    fieldset {
+     width: max-content;
+     padding-left: 210px;
+ }
+ 
+ table {
+     padding: 5px;
+     width: 704px;
+     margin: 0;
+ }
+ 
+ #orderButton {
+     float: right;
+     margin-top: 10px;
+ }
+ }
+
+
+   
+ 
+}

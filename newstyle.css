@@ -386,7 +386,7 @@ h3 a{
     }
     
     input, textarea {
-        display: block;
+        display: block;margin-bottom: 0em;
     }
 
     textarea{height:5em ; width:16em ; margin-left: 17px;}

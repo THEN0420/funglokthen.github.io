@@ -286,7 +286,7 @@ h3 a{
 
     form{height: 381px; 
         width: 284px; 
-        padding: 10px;}
+        padding: 10px; }
 
     label {
         float: left;
@@ -402,6 +402,14 @@ h3 a{
     #map{margin-left: -23px;}
 
     .productspic{margin-left: -78px;}
+
+    a{
+        text-decoration: none;
+        padding: 10px 10px;
+        font-weight: bold;
+        color: darkblue;
+    }
+    
 }
 
 @media only screen and (min-width:768px) and (max-width:1024px) {
